@@ -1,0 +1,49 @@
+
+.course-detail {
+  animation: fadeIn 1s;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.course-detail h2 {
+  color: blue;
+}
+
+.course-detail .course-detail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 30rem;
+  text-align: justify;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.course-detail-content > div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.course-detail-content > div > div {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid black;
+}
+
+.course-detail img {
+  width: 100%; 
+  margin-bottom: 15px;
+}
+
+.course-detail p {
+  font-size: 1.2rem;
+}
+
+.course-detail .cta-button {
+  margin-top: 30px;
+}

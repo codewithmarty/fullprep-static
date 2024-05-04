@@ -1,0 +1,15 @@
+.service > div {
+  display: flex;
+}
+
+.service > div > img {
+  margin: 0 1px;
+}
+
+.service {
+  text-align: justify;
+}
+
+h4 {
+  color: green;
+}

@@ -1,0 +1,45 @@
+.about-us {
+  padding: 100px 0;
+  animation: fadeIn 1s;
+}
+
+.about-us-section > .text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.about-us img {
+  width: 100%;
+  max-width: 60rem;
+  margin: 5rem auto;
+  border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .about-us-section > .text-section > p {
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .about-us img {
+    width: 100%;
+    max-width: 60rem;
+    margin: 0;
+    border-radius: 25px;
+  }
+}
+
+
+.about-us h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  margin: 1rem 5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

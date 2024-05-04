@@ -1,0 +1,97 @@
+.services,
+.testimonials,
+.free-trial {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.services {
+  animation: fadeIn 1s;
+  padding: 100px 0;
+}
+
+.testimonials {
+  padding-bottom: 100px;
+}
+
+.services > div,
+.testimonials > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  color: green;
+}
+
+.service,
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+  max-width: 20rem;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  width: 10rem;
+  margin-bottom: 10px;
+}
+
+.service h3,
+.testimonial h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service p,
+.testimonial p {
+  font-size: 1.1rem;
+}
+
+.contact-btn {
+  margin: 0 auto;
+}
+
+
+/* Service detail styling here */
+
+.service-detail {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.service-detail .service {
+  margin: 20px;
+  padding: 20px;
+  max-width: 30rem;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-detail img {
+  width: 10rem;
+  margin-bottom: 10px;
+}
+
+.service-detail h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-detail p {
+  font-size: 1.1rem;
+}
+
+.service-detail .cta-button {
+  margin-top: 20px;
+}
+
+.learn-btn:hover {
+  cursor: pointer;
+  background-color: rgb(67, 67, 67);
+}
